@@ -11,6 +11,8 @@ h1 {
     margin-right:30px;
     margin-top: 20px;
     box-shadow: 20px 20px 20px;
+    font-style: italic;
+    cursor: pointer;
 }
 
 body {
@@ -23,8 +25,12 @@ img {
     border-radius: 10px;
     margin: 20px;
     margin-bottom: 35px;
-    box-shadow: 20px 20px 20px;
+    box-shadow: 10px 10px 10px;
     color: aqua;
+}
+
+img:hover {
+    box-shadow: 20px 20px 20px; 
 }
 
 .images {
@@ -34,10 +40,14 @@ img {
     border-radius: 30px;
     margin: 5%;
     margin-top: 50px;
-    box-shadow: 20px 20px 20px;
+    box-shadow: 10px 10px 10px;
     color: aqua;
     cursor: pointer;
 }
+
+/* .images:hover {
+    box-shadow: 20px 20px 20px;
+ */
 
 .textcontent {
     /* border: 2px;
@@ -48,15 +58,16 @@ img {
     border-radius: 30px;
     box-shadow: 20px 20px 20px;
     padding: 5px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 30px;
     color: aqua;
 }
 p {
     color: aqua;
     margin-left: 20px;
-    font-size: medium;
+    font-size: large;
+    font-style: italic;
 }
 
 .tablediv {
@@ -70,12 +81,21 @@ p {
     margin-right: 583px;
     box-shadow: 20px 20px 20px;
     color: aqua;
+    cursor: pointer;
 }
+
 th {
     padding-top: 7px;
     border-radius: 5px;
     box-shadow:5px 5px 5px;
     padding: 3px;
+    color: rgb(3, 3, 193);
+    padding: 4px;
+    margin: 5px;
+}
+
+th:hover {
+    box-shadow:10px 10px 10px;
 }
 td {
     padding-top: 7px;
@@ -83,13 +103,18 @@ td {
     border-radius: 5px;
     box-shadow: 5px 5px 5px;
     margin: 3px;
-    padding: 4px;
+    padding-left:5px;
+    color: rgb(42, 69, 154);
+}
+
+td:hover {
+    box-shadow: 10px 10px 10px;
 }
 
 h3 {
     text-align: center;
     font-size:x-large;
-    margin-top: 38px;
+    margin-top: 50px;
     margin-left: 300;
     margin-right: 300px;
     border: 3px;
@@ -111,6 +136,7 @@ input {
     box-shadow: 10px 10px 10px;
     margin: 10px;
     border-radius: 10px;
+    background-color: black;
 }
 
 button {
@@ -127,11 +153,21 @@ button {
 }
 
 .inputdiv button:hover {
-    background-color:aqua;
+    background-color:rgb(68, 57, 41);
+    box-shadow: 15px 15px 15px;
+
 }
 .inputdiv input:hover {
-    background-color: black;
+    background-color:rgb(68, 57, 41);
+    box-shadow: 15px 15px 15px;
 }
+
+
+
+
+
+
+
 
 
 
