@@ -1,0 +1,182 @@
+h1 {
+    color: aqua;
+    text-align: center;
+    /* border: 5px; 
+    border-style: inset;
+    border-color:aqua; */
+    border-radius: 30px;
+    background-color: black;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right:30px;
+    margin-top: 20px;
+    box-shadow: 20px 20px 20px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+body {
+    background-color:rgb(50, 99, 126);
+}
+
+img {
+    /*border-style: inset;
+    border-color: aqua;*/
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 35px;
+    box-shadow: 10px 10px 10px;
+    color: aqua;
+}
+
+img:hover {
+    box-shadow: 20px 20px 20px; 
+}
+
+.images {
+    display: flex;
+    justify-content: center;   
+    background-color: black; 
+    border-radius: 30px;
+    margin: 5%;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px;
+    color: aqua;
+    cursor: pointer;
+}
+
+/* .images:hover {
+    box-shadow: 20px 20px 20px;
+ */
+
+.textcontent {
+    /* border: 2px;
+    border-style: inset;
+    border-radius: 20px;
+    border-color: aqua; */
+    background-color: black;
+    border-radius: 30px;
+    box-shadow: 20px 20px 20px;
+    padding: 5px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 30px;
+    color: aqua;
+}
+p {
+    color: aqua;
+    margin-left: 20px;
+    font-size: large;
+    font-style: italic;
+}
+
+.tablediv {
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 38px;
+    background-color:aqua;
+    margin-left: 583px;
+    margin-right: 583px;
+    box-shadow: 20px 20px 20px;
+    color: aqua;
+    cursor: pointer;
+}
+
+th {
+    padding-top: 7px;
+    border-radius: 5px;
+    box-shadow:5px 5px 5px;
+    padding: 3px;
+    color: rgb(3, 3, 193);
+    padding: 4px;
+    margin: 5px;
+}
+
+th:hover {
+    box-shadow:10px 10px 10px;
+}
+td {
+    padding-top: 7px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+    margin: 3px;
+    padding-left:5px;
+    color: rgb(42, 69, 154);
+}
+
+td:hover {
+    box-shadow: 10px 10px 10px;
+}
+
+h3 {
+    text-align: center;
+    font-size:x-large;
+    margin-top: 50px;
+    margin-left: 300;
+    margin-right: 300px;
+    border: 3px;
+    border-radius: 15px;
+    padding: 10px;
+    color: aqua;
+    box-shadow: 20px 20px 20px;
+    background-color: black;
+}
+
+.inputdiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+input { 
+    color: aqua;
+    box-shadow: 10px 10px 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+button {
+    background-color: black;
+    margin: 10px;
+    color: aqua;
+    box-shadow: 10px 10px 10px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.inputdiv button:hover {
+    background-color:rgb(68, 57, 41);
+    box-shadow: 15px 15px 15px;
+
+}
+.inputdiv input:hover {
+    background-color:rgb(68, 57, 41);
+    box-shadow: 15px 15px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
