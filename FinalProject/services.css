@@ -1,0 +1,156 @@
+header {
+    position: sticky;
+    z-index: 999;
+    top: 0;
+}
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(187deg, rgba(111, 110, 110, 0.663) 0%, rgba(140, 247, 238, 0.408) 50%, rgba(138, 138, 138, 0.66) 100%);
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px azure;
+    height: 110px;
+}
+
+.navmenu {
+    margin-top: 4%;
+    margin-left: 2%;
+    font-size: large;
+}
+
+.log {
+    display: flex;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 38%;
+    font-size: large;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight:light;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 2px azure;
+    text-shadow: 2px 2px 2px azure;
+}
+
+nav a:hover {
+    box-shadow: 3px 3px 2px azure;
+    transition: 0.2s;
+}
+
+#logo {
+    display: flex;
+    margin: 20px;
+    margin-left: 60px;
+    box-shadow: 2px 1px 1px azure;
+    border-radius: 20px;
+}
+
+#logo h1 {
+    margin: 10px;
+    margin-top: 35px;
+    text-shadow: 2px 1px 1px rgb(213, 213, 213);
+}
+
+span {
+    color: red;
+}
+
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(187deg, rgba(99, 98, 98, 0.663) 0%, rgba(123, 255, 244, 0.408) 50%, rgba(133, 133, 133, 0.66) 100%);
+}
+
+.thetitle {
+    text-align: center;
+    text-shadow: 2px 2px 2px azure;
+}
+
+.thetitle h2 {
+    margin-top: 35px;
+    background: rgb(0,0,0);
+    background: linear-gradient(187deg, rgba(99, 98, 98, 0.663) 0%, rgba(123, 255, 244, 0.408) 50%, rgba(133, 133, 133, 0.66) 100%);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.container1 {
+    display: flex;
+    border-radius: 20px;
+<<<<<<< Updated upstream
+    background-image: url(styles/icons/overland2222.webp);
+=======
+    background-image: url(/styles/icons/overland2222.webp);
+>>>>>>> Stashed changes
+    background-size: 1120px;
+    background-position-x: 400px ;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.container img {
+    border-radius: 15px;
+}
+
+.inputs {
+    margin-left: 20px;
+}
+
+.inputs input {
+    margin-top: 5px;
+    margin-left: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.inputs button {
+    margin-top: 5px;
+    margin-left: 8px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.inputs button:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.container2 {
+    display: flex;
+    border-radius: 20px;
+<<<<<<< Updated upstream
+    background-image: url(styles/icons/paraglide\ back.jpg);
+=======
+    background-image: url(/styles/icons/paraglide\ back.jpg);
+>>>>>>> Stashed changes
+    background-size: 1120px;
+    background-position-x: 400px ;
+    background-position-y: -200px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    background: rgb(140, 140, 140);
+    background: linear-gradient(187deg, rgba(133, 132, 132, 0.663) 0%, rgba(99, 239, 227, 0.408) 50%, rgba(148, 147, 147, 0.66) 100%);
+}
+
+footer a {
+    color: black;
+    text-shadow: 2px 2px 2px azure;
+    font-size: large;
+}
